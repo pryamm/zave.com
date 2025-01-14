@@ -1,0 +1,217 @@
+{
+  "promoBanners": [
+    { "id": 1, "src": "https://picsum.photos/800/300", "title": "Promo 1" },
+    { "id": 2, "src": "https://picsum.photos/800/301", "title": "Promo 2" },
+    { "id": 3, "src": "https://picsum.photos/800/302", "title": "Promo 3" }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "src": "https://picsum.photos/300/300",
+      "name": "Product Alpha",
+      "variant": "Warna Hitam",
+      "originalPrice": "Rp500.000",
+      "discountedPrice": "Rp350.000"
+    },
+    {
+      "id": 2,
+      "src": "https://picsum.photos/300/301",
+      "name": "Product Beta",
+      "variant": "Warna Hitam",
+      "originalPrice": "Rp600.000",
+      "discountedPrice": "Rp420.000"
+    },
+    {
+      "id": 3,
+      "src": "https://picsum.photos/300/302",
+      "name": "Product Gamma",
+      "variant": "Warna Hitam",
+      "originalPrice": "Rp750.000",
+      "discountedPrice": "Rp525.000"
+    },
+    {
+      "id": 4,
+      "src": "https://picsum.photos/300/303",
+      "name": "Product Delta",
+      "variant": "Warna Hitam",
+      "originalPrice": "Rp1.000.000",
+      "discountedPrice": "Rp850.000"
+    },
+    {
+      "id": 5,
+      "src": "https://picsum.photos/300/304",
+      "name": "Product Epsilon",
+      "variant": "Warna Hitam",
+      "originalPrice": "Rp1.200.000",
+      "discountedPrice": "Rp1.050.000"
+    },
+    {
+      "id": 6,
+      "src": "https://picsum.photos/300/305",
+      "name": "Product Zeta",
+      "variant": "Warna Hitam",
+      "originalPrice": "Rp900.000",
+      "discountedPrice": "Rp750.000"
+    },
+    {
+      "id": 7,
+      "src": "https://picsum.photos/300/306",
+      "name": "Product Theta",
+      "variant": "Warna Hitam",
+      "originalPrice": "Rp650.000",
+      "discountedPrice": "Rp520.000"
+    },
+    {
+      "id": 8,
+      "src": "https://picsum.photos/300/307",
+      "name": "Product Iota",
+      "variant": "Warna Hitam",
+      "originalPrice": "Rp550.000",
+      "discountedPrice": "Rp450.000"
+    },
+    {
+      "id": 9,
+      "src": "https://picsum.photos/300/308",
+      "name": "Product Kappa",
+      "variant": "Warna Hitam",
+      "originalPrice": "Rp850.000",
+      "discountedPrice": "Rp700.000"
+    },
+    {
+      "id": 10,
+      "src": "https://picsum.photos/300/309",
+      "name": "Product Lambda",
+      "variant": "Warna Hitam",
+      "originalPrice": "Rp950.000",
+      "discountedPrice": "Rp810.000"
+    },
+    {
+      "id": 11,
+      "src": "https://picsum.photos/300/310",
+      "name": "Product Mu",
+      "variant": "Warna Hitam",
+      "originalPrice": "Rp1.100.000",
+      "discountedPrice": "Rp950.000"
+    },
+    {
+      "id": 12,
+      "src": "https://picsum.photos/300/311",
+      "name": "Product Nu",
+      "variant": "Warna Hitam",
+      "originalPrice": "Rp1.300.000",
+      "discountedPrice": "Rp1.150.000"
+    },
+    {
+      "id": 13,
+      "src": "https://picsum.photos/300/312",
+      "name": "Product Xi",
+      "variant": "Warna Hitam",
+      "originalPrice": "Rp1.200.000",
+      "discountedPrice": "Rp1.050.000"
+    },
+    {
+      "id": 14,
+      "src": "https://picsum.photos/300/313",
+      "name": "Product Omicron",
+      "variant": "Warna Hitam",
+      "originalPrice": "Rp1.400.000",
+      "discountedPrice": "Rp1.200.000"
+    },
+    {
+      "id": 15,
+      "src": "https://picsum.photos/300/314",
+      "name": "Product Pi",
+      "variant": "Warna Hitam",
+      "originalPrice": "Rp750.000",
+      "discountedPrice": "Rp600.000"
+    },
+    {
+      "id": 16,
+      "src": "https://picsum.photos/300/315",
+      "name": "Product Rho",
+      "variant": "Warna Hitam",
+      "originalPrice": "Rp850.000",
+      "discountedPrice": "Rp700.000"
+    },
+    {
+      "id": 17,
+      "src": "https://picsum.photos/300/316",
+      "name": "Product Sigma",
+      "variant": "Warna Hitam",
+      "originalPrice": "Rp900.000",
+      "discountedPrice": "Rp750.000"
+    },
+    {
+      "id": 18,
+      "src": "https://picsum.photos/300/317",
+      "name": "Product Tau",
+      "variant": "Warna Hitam",
+      "originalPrice": "Rp1.000.000",
+      "discountedPrice": "Rp850.000"
+    },
+    {
+      "id": 19,
+      "src": "https://picsum.photos/300/318",
+      "name": "Product Upsilon",
+      "variant": "Warna Hitam",
+      "originalPrice": "Rp1.100.000",
+      "discountedPrice": "Rp950.000"
+    },
+    {
+      "id": 20,
+      "src": "https://picsum.photos/300/319",
+      "name": "Product Phi",
+      "variant": "Warna Hitam",
+      "originalPrice": "Rp1.200.000",
+      "discountedPrice": "Rp1.050.000"
+    },
+    {
+      "id": 21,
+      "src": "https://picsum.photos/300/320",
+      "name": "Product Chi",
+      "variant": "Warna Hitam",
+      "originalPrice": "Rp1.300.000",
+      "discountedPrice": "Rp1.150.000"
+    },
+    {
+      "id": 22,
+      "src": "https://picsum.photos/300/321",
+      "name": "Product Psi",
+      "variant": "Warna Hitam",
+      "originalPrice": "Rp1.400.000",
+      "discountedPrice": "Rp1.200.000"
+    },
+    {
+      "id": 23,
+      "src": "https://picsum.photos/300/322",
+      "name": "Product Omega",
+      "variant": "Warna Hitam",
+      "originalPrice": "Rp1.500.000",
+      "discountedPrice": "Rp1.350.000"
+    },
+    {
+      "id": 24,
+      "src": "https://picsum.photos/300/323",
+      "name": "Product Alpha Plus",
+      "variant": "Warna Hitam",
+      "originalPrice": "Rp600.000",
+      "discountedPrice": "Rp480.000"
+    },
+    {
+      "id": 25,
+      "src": "https://picsum.photos/300/324",
+      "name": "Product Beta Plus",
+      "variant": "Warna Hitam",
+      "originalPrice": "Rp700.000",
+      "discountedPrice": "Rp560.000"
+    },
+    {
+      "id": 26,
+      "src": "https://picsum.photos/300/325",
+      "name": "Product Omega Supreme",
+      "variant": "Warna Hitam",
+      "originalPrice": "Rp1.600.000",
+      "discountedPrice": "Rp1.450.000"
+    }
+  ]
+}
