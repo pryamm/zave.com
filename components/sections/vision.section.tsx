@@ -3,7 +3,7 @@
 import Image from "next/image";
 import Typewriter from "typewriter-effect";
 
-export default function VisionSection({ isVisible }) {
+export default function VisionSection({ isVisible }: { isVisible: boolean }) {
   return (
     <section
       id='vision-section'
@@ -29,7 +29,6 @@ export default function VisionSection({ isVisible }) {
               autoStart: true,
               delay: 1,
             }}
-            className='text-gray-700 text-lg'
           />
         )}
       </div>

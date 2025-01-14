@@ -1,7 +1,6 @@
 "use client";
 
 import ProductCard from "@/components/cards/product.card";
-import PromoBannerCard from "@/components/cards/promo-banner.card";
 import { useEffect, useState } from "react";
 
 export default function CatalogPage() {
@@ -15,9 +14,6 @@ export default function CatalogPage() {
       discountedPrice: string;
     }[]
   >([]);
-  const [promoBanners, setPromoBanners] = useState<
-    { id: number; src: string; title: string }[]
-  >([]);
 
   const fetchProducts = async () => {
     const response = await fetch("/api/products");
@@ -25,15 +21,8 @@ export default function CatalogPage() {
     setProducts(data.data);
   };
 
-  const fetchBanners = async () => {
-    const response = await fetch("/api/promo-banners");
-    const data = await response.json();
-    setPromoBanners(data.data);
-  };
-
   useEffect(() => {
     fetchProducts();
-    fetchBanners();
   }, []);
 
   return (

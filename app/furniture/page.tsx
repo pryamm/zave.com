@@ -4,8 +4,6 @@ import {
   Carousel,
   CarouselContent,
   CarouselItem,
-  CarouselPrevious,
-  CarouselNext,
 } from "@/components/ui/carousel"; // Import ShadCN Carousel component
 import Image from "next/image";
 import { useState } from "react";

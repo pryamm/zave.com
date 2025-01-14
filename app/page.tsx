@@ -1,6 +1,3 @@
-import { Button } from "@/components/ui/button";
-import Image from "next/image";
-
 export default function Home() {
   return (
     <div className='font-sans bg-white text-gray-900'>
@@ -65,37 +62,6 @@ export default function Home() {
               </p>
             </div>
           </div>
-        </div>
-      </section>
-
-      {/* Contact Section */}
-      <section className='bg-blue-600 text-white py-16'>
-        <div className='max-w-7xl mx-auto px-4 text-center'>
-          <h2 className='text-3xl font-bold mb-6'>Hubungi Kami</h2>
-          <p className='text-xl mb-8'>
-            Siap untuk memulai proyek Anda? Hubungi kami dan kami akan membantu
-            mewujudkan impian Anda!
-          </p>
-          <form className='max-w-md mx-auto'>
-            <input
-              type='text'
-              placeholder='Nama'
-              className='w-full p-4 mb-4 rounded-lg border border-gray-300'
-            />
-            <input
-              type='email'
-              placeholder='Email'
-              className='w-full p-4 mb-4 rounded-lg border border-gray-300'
-            />
-            <textarea
-              placeholder='Pesan'
-              className='w-full p-4 mb-4 rounded-lg border border-gray-300'
-              rows='4'
-            ></textarea>
-            <button className='w-full bg-yellow-400 text-white py-3 rounded-lg text-lg hover:bg-yellow-500'>
-              Kirim Pesan
-            </button>
-          </form>
         </div>
       </section>
     </div>

@@ -3,7 +3,7 @@
 import Image from "next/image";
 import Typewriter from "typewriter-effect";
 
-export default function MissionSection({ isVisible }) {
+export default function MissionSection({ isVisible }: { isVisible: boolean }) {
   const missions = [
     "1. Memberikan layanan konstruksi yang profesional dan terpercaya.",
     "2. Menciptakan desain inovatif yang mengutamakan estetika dan fungsi.",
@@ -18,10 +18,11 @@ export default function MissionSection({ isVisible }) {
       <div className='order-2 md:order-1'>
         <h2 className='text-3xl font-bold text-blue-600 mb-4'>Misi Kami</h2>
         {isVisible &&
-          missions.map((v) => (
+          missions.map((mission, index) => (
             <Typewriter
+              key={index}
               options={{
-                strings: v,
+                strings: mission,
                 autoStart: true,
                 delay: 1,
               }}
