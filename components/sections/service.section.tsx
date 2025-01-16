@@ -50,9 +50,32 @@ export default function ServiceSection() {
   return (
     <section className='py-16 px-4'>
       <div className='container mx-auto'>
-        <h2 className='text-4xl font-bold text-blue-600 text-center mb-12'>
-          Layanan Kami
-        </h2>
+        {/* Banner Section with Parallax Effect */}
+        <div
+          className='bg-cover bg-center text-white text-center py-24 mb-12 relative'
+          style={{
+            backgroundImage: `url(https://picsum.photos/1200/600)`,
+            backgroundAttachment: "fixed", // Parallax effect
+            backgroundSize: "cover",
+            height: "500px", // Increased height
+          }}
+        >
+          {/* Dark overlay on image */}
+          <div className='absolute inset-0 bg-black opacity-50'></div>
+
+          {/* Text content centered */}
+          <div className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10 text-center'>
+            <h2 className='text-5xl font-bold mb-4'>
+              Solusi untuk Kebutuhan Anda
+            </h2>
+            <p className='text-xl'>
+              Lebih dari yang Anda inginkan—kami menciptakan pengalaman terbaik
+              untuk setiap kebutuhan Anda.
+            </p>
+          </div>
+        </div>
+
+        {/* Service Cards */}
         <div className='grid grid-cols-1 md:grid-cols-3 gap-8'>
           {services.map((service, index) => (
             <div
@@ -79,13 +102,11 @@ export default function ServiceSection() {
               </div>
 
               {/* Text content */}
-              <div className='text-center mt-4 relative z-10 group-hover:text-white'>
+              <div className='text-center mt-4 relative z-10'>
                 <h3 className='text-4xl font-extrabold mb-2'>
                   {service.title}
                 </h3>
-                <p className='text-gray-700 group-hover:text-white'>
-                  {service.desc}
-                </p>
+                <p className='text-gray-700'>{service.desc}</p>
               </div>
             </div>
           ))}

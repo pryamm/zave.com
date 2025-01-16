@@ -6,6 +6,7 @@ import PortofolioSection from "@/components/sections/portofolio.section";
 import ServiceSection from "@/components/sections/service.section";
 import VisionSection from "@/components/sections/vision.section";
 import MissionSection from "@/components/sections/mission.section";
+import AboutUsSection from "@/components/sections/about-us.section";
 
 export default function AboutUs() {
   const [isInView, setIsInView] = useState({
@@ -36,6 +37,8 @@ export default function AboutUs() {
   return (
     <main className='bg-gray-50 min-h-screen'>
       <HeroSection />
+
+      <AboutUsSection />
 
       <PortofolioSection />
 
