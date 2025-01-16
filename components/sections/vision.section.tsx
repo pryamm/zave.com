@@ -29,7 +29,6 @@ export default function VisionSection({ isVisible }: { isVisible: boolean }) {
               autoStart: true,
               delay: 1,
             }}
-            className='text-gray-700 text-lg'
           />
         )}
       </div>
